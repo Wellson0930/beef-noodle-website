@@ -1,0 +1,42 @@
+body {
+  font-family: "微軟正黑體", sans-serif;
+  background-color: #fffaf4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a83232;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.product {
+  text-align: center;
+  max-width: 300px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #a83232;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
